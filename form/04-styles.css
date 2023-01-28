@@ -707,7 +707,7 @@
     background-color: var(--color-light-grey);
   }
 
-  ::placeholder {
+  input[type=text]::placeholder, input[type=email]::placeholder, textarea::placeholder {
     font-style: italic;
     font-size: var(--font-size-small);
   }
